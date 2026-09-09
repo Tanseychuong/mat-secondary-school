@@ -11,10 +11,10 @@
  */
 
 // --- Database credentials -------------------------------------------------
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'mat_secondary_school');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'sql110.infinityfree.com');
+define('DB_NAME', 'if0_42877189_mat_ss');
+define('DB_USER', 'if0_42877189');
+define('DB_PASS', 'hC1AfJ43YJkyz');
 define('DB_CHARSET', 'utf8mb4');
 
 /**
@@ -31,9 +31,9 @@ function getDbConnection(): PDO
         $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET;
 
         $options = [
-            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            PDO::ATTR_EMULATE_PREPARES   => false,
+            PDO::ATTR_EMULATE_PREPARES => false,
         ];
 
         try {

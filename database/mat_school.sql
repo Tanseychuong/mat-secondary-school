@@ -6,12 +6,6 @@
 -- some initial sample data.
 -- =========================================================
 
-CREATE DATABASE IF NOT EXISTS mat_secondary_school
-    CHARACTER SET utf8mb4
-    COLLATE utf8mb4_unicode_ci;
-
-USE mat_secondary_school;
-
 -- ---------------------------------------------------------
 -- Table: news
 -- Stores school news and events, displayed on news.php and

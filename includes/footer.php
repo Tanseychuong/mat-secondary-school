@@ -21,9 +21,9 @@
         <div class="footer-col">
             <h4>Contact Info</h4>
             <ul class="contact-info">
-                <li>123 School Road, Accra, Ghana</li>
-                <li>info@matsecondaryschool.edu.gh</li>
-                <li>+233 000 000 000</li>
+                <li>123 School Road, Juba, South Sudan</li>
+                <li>info@matsecondaryschool.edu.ss</li>
+                <li>+211 000 000 000</li>
             </ul>
         </div>
     </div>
@@ -36,4 +36,5 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="<?php echo isset($basePath) ? $basePath : ''; ?>js/script.js"></script>
 </body>
+
 </html>
