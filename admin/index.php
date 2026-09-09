@@ -6,9 +6,7 @@ require_once __DIR__ . '/../config/database.php';
 /**
  * NOTE: This administrative page is intended as a demonstration of
  * retrieving data from MySQL. It does not include authentication.
- * Do not deploy this page publicly without adding access control
- * (see README.md / "Future Improvements" in the documentation).
- */
+ * /
 
 $enquiries = [];
 $fetchError = null;
