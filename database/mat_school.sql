@@ -7,6 +7,20 @@
 -- =========================================================
 
 -- ---------------------------------------------------------
+-- Table: user
+-- Stores school website's users and admins, for role based access.
+-- ---------------------------------------------------------
+CREATE TABLE IF NOT EXISTS user(
+    id  VARCHAR(6) PRIMARY KEY,
+    email VARCHAR(40) NOT NULL,
+    username VARCHAR(12) NOT NULL,
+    fname VARCHAR(30), NOT NULL,
+    middlename VARCHAR(30),
+    lastname VARCHAR(30) NOT NULL;
+    user_role ENUM('admin','user') DEFAULT 'user';
+)
+
+-- ---------------------------------------------------------
 -- Table: news
 -- Stores school news and events, displayed on news.php and
 -- previewed on the homepage.
